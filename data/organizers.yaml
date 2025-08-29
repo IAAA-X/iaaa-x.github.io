@@ -1,31 +1,53 @@
-- name: ChengXiang Zhai
-  affiliation: University of Illinois Urbana-Champaign
-  image: organizers/zhai.png
-  website: "https://czhai.cs.illinois.edu/"
-  group: Founding Organizer
-
 - name: Ke Yang
   affiliation: University of Illinois Urbana-Champaign
   image: organizers/yangk.jpg
   website: "https://empathyang.github.io/"
-  group: Members
+  group: Organizers
+
 - name: Nolwenn Bernard
   affiliation: TH Köln
   image: organizers/bernard.jpg
   website: "https://nob0.github.io/"
-  group: Members
+  group: Organizers
+
 - name: Tomer Wolfson
   affiliation: University of Pennsylvania
   image: organizers/wolfson.jpg
   website: "https://tomerwolgithub.github.io/"
-  group: Members
+  group: Organizers
+
 - name: Hao Zhu
   affiliation: Stanford University
   image: organizers/zhu.jpg
   website: "https://zhuhao.me/"
-  group: Members
+  group: Organizers
+
 - name: Rui Yang
   affiliation: University of Illinois Urbana-Champaign
   image: organizers/yangr.jpg
   website: "https://yangrui2015.github.io/"
-  group: Members
+  group: Organizers
+
+- name: Chenglong Wang
+  affiliation: Microsoft Research
+  image: advisors/wang.jpg
+  website: "https://chenglongwang.org/"
+  group: Senior Organizers
+
+- name: Michel Galley
+  affiliation: Microsoft Research
+  image: advisors/galley.jpg
+  website: "https://www.microsoft.com/en-us/research/people/mgalley/"
+  group: Senior Organizers
+
+- name: Diyi Yang
+  affiliation: Stanford University
+  image: advisors/yangd.jpg
+  website: "https://cs.stanford.edu/~diyiy/"
+  group: Senior Organizers
+
+- name: ChengXiang Zhai
+  affiliation: University of Illinois Urbana-Champaign
+  image: organizers/zhai.png
+  website: "https://czhai.cs.illinois.edu/"
+  group: Senior Organizers

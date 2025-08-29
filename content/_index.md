@@ -59,10 +59,10 @@ sections:
   - block: people
     file: organizers
     content:
-      title: "Organizers"
+      title: "Organizer Committee"
       user_groups:
-        - Founding Organizer
-        - Members
+        - Organizers
+        - Senior Organizers
     design:
       css_class: "bg-gray-100 dark:bg-gray-900"
   - block: people
@@ -70,8 +70,7 @@ sections:
     content:
       title: "Advising Committee"
       user_groups:
-        - Frontier Board
-        - Main Board
+        - Advising Committee
   - block: markdown
     id: contact
     content:
