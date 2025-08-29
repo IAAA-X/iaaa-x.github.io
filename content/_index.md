@@ -68,9 +68,7 @@ sections:
   - block: people
     file: advisors
     content:
-      title: "Advising Committee"
-      user_groups:
-        - Advising Committee
+      title: "Advisory Board"
   - block: markdown
     id: contact
     content:

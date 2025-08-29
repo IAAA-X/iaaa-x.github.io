@@ -8,17 +8,23 @@
 {{ $file := $block.file | default "organizers" }}
 {{ $people := index site.Data $file }}
 
-{{/* Filter people by user groups */}}
+{{/* Filter people by user groups if specified, otherwise show all */}}
 {{ $filteredPeople := slice }}
+{{ if $userGroups }}
 {{ range $people }}
 {{ if in $userGroups .group }}
 {{ $filteredPeople = $filteredPeople | append . }}
 {{ end }}
 {{ end }}
+{{ else }}
+{{ $filteredPeople = $people }}
+{{ end }}
 
 <div class="flex flex-col items-center max-w-full mx-auto gap-3 justify-center px-6">
     <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">{{ $title }}</div>
     <div class="prose prose-slate lg:prose-xl dark:prose-invert max-w-screen-xl w-full">
+        {{ if $userGroups }}
+        {{/* Show with subgroup titles */}}
         {{ range $userGroups }}
         {{ $currentGroup := . }}
         <div class="w-full">
@@ -45,6 +51,27 @@
                 {{ end }}
             </div>
 
+        </div>
+        {{ end }}
+        {{ else }}
+        {{/* Show all people without subgroup titles */}}
+        <div class="flex flex-wrap gap-6 justify-center">
+            {{ range $filteredPeople }}
+            <div class="flex flex-col items-center text-center w-48">
+                {{ $image := resources.Get (printf "media/%s" .image) }}
+                {{ with $image }}
+                <img src="{{ .Permalink }}" class="w-36 h-36 rounded-full object-cover">
+                {{ end }}
+                <div class="mt-2">
+                    {{ if .website }}
+                    <a href="{{ .website }}" target="_blank" class="text-blue-600 hover:underline">{{ .name }}</a>
+                    {{ else }}
+                    {{ .name }}
+                    {{ end }}
+                </div>
+                <div class="text-sm text-gray-500 dark:text-gray-400">{{ .affiliation }}</div>
+            </div>
+            {{ end }}
         </div>
         {{ end }}
     </div>
