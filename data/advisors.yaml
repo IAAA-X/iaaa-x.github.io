@@ -1,0 +1,36 @@
+- name: Diyi Yang
+  affiliation: Stanford University
+  image: advisors/yangd.jpg
+  website: "https://cs.stanford.edu/~diyiy/"
+  group: Frontier Board
+- name: Chenglong Wang
+  affiliation: Microsoft Research
+  image: advisors/wang.jpg
+  website: "https://chenglongwang.org/"
+  group: Frontier Board
+- name: Michel Galley
+  affiliation: Microsoft Research
+  image: advisors/galley.jpg
+  website: "https://www.microsoft.com/en-us/research/people/mgalley/"
+  group: Frontier Board
+
+- name: Jianfeng Gao
+  affiliation: Microsoft Research
+  image: advisors/gao.jpg
+  website: "https://www.microsoft.com/en-us/research/people/jfgao/"
+  group: Main Board
+- name: Dan Roth
+  affiliation: University of Pennsylvania
+  image: advisors/roth.jpg
+  website: "https://www.cis.upenn.edu/~danroth/"
+  group: Main Board
+- name: NG Hwee Tou
+  affiliation: National University of Singapore
+  image: advisors/tou.jpg
+  website: "https://www.comp.nus.edu.sg/~nght/"
+  group: Main Board
+- name: Scott Wen-tau Yih
+  affiliation: Meta Fundamental AI Research
+  image: advisors/yih.jpg
+  website: "https://scottyih.org/"
+  group: Main Board

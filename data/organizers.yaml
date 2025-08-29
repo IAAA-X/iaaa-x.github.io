@@ -1,0 +1,31 @@
+- name: ChengXiang Zhai
+  affiliation: University of Illinois Urbana-Champaign
+  image: organizers/zhai.png
+  website: "https://czhai.cs.illinois.edu/"
+  group: Founding Organizer
+
+- name: Ke Yang
+  affiliation: University of Illinois Urbana-Champaign
+  image: organizers/yangk.jpg
+  website: "https://empathyang.github.io/"
+  group: Members
+- name: Nolwenn Bernard
+  affiliation: TH Köln
+  image: organizers/bernard.jpg
+  website: "https://nob0.github.io/"
+  group: Members
+- name: Tomer Wolfson
+  affiliation: University of Pennsylvania
+  image: organizers/wolfson.jpg
+  website: "https://tomerwolgithub.github.io/"
+  group: Members
+- name: Hao Zhu
+  affiliation: Stanford University
+  image: organizers/zhu.jpg
+  website: "https://zhuhao.me/"
+  group: Members
+- name: Rui Yang
+  affiliation: University of Illinois Urbana-Champaign
+  image: organizers/yangr.jpg
+  website: "https://yangrui2015.github.io/"
+  group: Members

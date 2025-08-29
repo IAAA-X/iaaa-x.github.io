@@ -1,0 +1,15 @@
+{{/* custom-page-section block template */}}
+{{ $block := .wcBlock }}
+
+{{ $page := site.GetPage ($block.filename | default "") }}
+
+<div class="flex flex-col items-center  mx-auto gap-3 justify-center px-6">
+    {{ with $page }}
+    <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">{{ .Title }}</div>
+    <div class="prose prose-slate lg:prose-xl dark:prose-invert">
+        {{ .Content }}
+    </div>
+    {{ else }}
+    <p>Content not found: {{ $block.filename }}</p>
+    {{ end }}
+</div>

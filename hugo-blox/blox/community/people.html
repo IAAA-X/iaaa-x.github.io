@@ -1,0 +1,51 @@
+{{/* people block template */}}
+{{ $block := .wcBlock }}
+
+{{ $title := $block.content.title | default "People" }}
+{{ $userGroups := $block.content.user_groups | default (slice) }}
+
+{{/* Get people data */}}
+{{ $file := $block.file | default "organizers" }}
+{{ $people := index site.Data $file }}
+
+{{/* Filter people by user groups */}}
+{{ $filteredPeople := slice }}
+{{ range $people }}
+{{ if in $userGroups .group }}
+{{ $filteredPeople = $filteredPeople | append . }}
+{{ end }}
+{{ end }}
+
+<div class="flex flex-col items-center max-w-full mx-auto gap-3 justify-center px-6">
+    <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">{{ $title }}</div>
+    <div class="prose prose-slate lg:prose-xl dark:prose-invert max-w-screen-xl w-full">
+        {{ range $userGroups }}
+        {{ $currentGroup := . }}
+        <div class="w-full">
+            <div class="text-2xl font-semibold mt-8 mb-4 text-center">{{ $currentGroup }}</div>
+
+            <div class="flex flex-wrap gap-6 justify-center">
+                {{ range $filteredPeople }}
+                {{ if eq .group $currentGroup }}
+                <div class="flex flex-col items-center text-center w-48">
+                    {{ $image := resources.Get (printf "media/%s" .image) }}
+                    {{ with $image }}
+                    <img src="{{ .Permalink }}" class="w-36 h-36 rounded-full object-cover">
+                    {{ end }}
+                    <div class="mt-2">
+                        {{ if .website }}
+                        <a href="{{ .website }}" target="_blank" class="text-blue-600 hover:underline">{{ .name }}</a>
+                        {{ else }}
+                        {{ .name }}
+                        {{ end }}
+                    </div>
+                    <div class="text-sm text-gray-500 dark:text-gray-400">{{ .affiliation }}</div>
+                </div>
+                {{ end }}
+                {{ end }}
+            </div>
+
+        </div>
+        {{ end }}
+    </div>
+</div>
