@@ -8,7 +8,7 @@ Natural language processing (NLP) has long played a key role in enhancing the in
 
 At the same time, as AI agents increasingly automate our tasks, <strong style="color: #92400e !important; font-weight: bold;">the agents themselves have the need for IA, creating new challenges in enabling AI agents to best leverage IA tools</strong>, such as search engines to retrieve relevant information to augment generation. 
 
-<strong style="color: #92400e !important; font-weight: bold;">These new opportunities and challenges call for new research in the broad interdisciplinary area of IA, NLP, LLMs, and interactive AI agents.</strong> There are many general open questions to be investigated, such as:   
+<strong style="color: #92400e !important; font-weight: bold;">These new opportunities and challenges call for research in the interdisciplinary area of IA, NLP, LLMs, and interactive AI agents.</strong> There are many general open questions to be investigated, such as:   
 * How can we maximize the benefits of AI agents for human IA?  
 * How can agents acquire complete user context, process it, and deliver accurate, timely, and personalized information services?  
 * How can AI agents simulate users and understand their needs?  
