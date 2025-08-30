@@ -4,17 +4,17 @@
 
 main:
   - name: Call for Papers
-    url: /#call-for-papers
+    url: /#workshop-description
     weight: 20
-  - name: Speakers
-    url: /#speakers
-    weight: 25
   - name: Schedule
     url: /#schedule
     weight: 30
-  - name: Call for Reviewers
-    url: /#call-for-reviewers
+  - name: Organizer Committee
+    url: /#organizers
     weight: 40
-  - name: Organization
-    url: /#organization
+  - name: Advisory Board
+    url: /#advisors
     weight: 50
+  - name: Contact
+    url: /#contact
+    weight: 60

@@ -1,0 +1,148 @@
+/* Custom styles for larger hero elements */
+.hero-title {
+  font-size: 4rem !important;
+  line-height: 1.2 !important;
+  font-weight: 700 !important;
+}
+
+.hero-text {
+  font-size: 1.5rem !important;
+  line-height: 1.6 !important;
+  margin-top: 1.5rem !important;
+}
+
+.hero-buttons {
+  margin-top: 2rem !important;
+}
+
+.hero-buttons .btn {
+  font-size: 1.25rem !important;
+  padding: 1rem 2rem !important;
+  margin: 0.5rem !important;
+}
+
+/* Make background image larger */
+.hero-background {
+  min-height: 100vh !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+/* Make navbar logo larger - multiple selectors to ensure it works */
+.navbar-brand img {
+  width: 90px !important;
+  height: auto !important;
+}
+
+.navbar .navbar-brand img {
+  width: 90px !important;
+  height: auto !important;
+}
+
+.navbar-brand svg {
+  width: 90px !important;
+  height: auto !important;
+}
+
+/* Target by data attributes that might be used */
+[data-bs-target*="navbar"] img {
+  width: 90px !important;
+  height: auto !important;
+}
+
+/* Target any logo in header */
+header img {
+  width: 90px !important;
+  height: auto !important;
+}
+
+/* Change the Call for Papers button background color to gold */
+a[href*="workshop-description"] {
+  background-color: #fbbf24 !important; /* Gold background */
+  border-color: #fbbf24 !important;
+}
+
+a[href*="workshop-description"]:hover {
+  background-color: #d97706 !important; /* Darker gold on hover */
+  border-color: #d97706 !important;
+}
+
+/* Hide all footer elements */
+footer {
+  display: none !important;
+}
+
+.page-footer {
+  display: none !important;
+}
+
+/* Hide specific footer elements */
+footer p.text-center,
+footer p.powered-by,
+footer a[href*="privacy"],
+footer a[href*="terms"] {
+  display: none !important;
+}
+
+/* Make prose content wider but not too wide */
+.prose {
+  max-width: 80rem !important; /* 1280px */
+  width: 100% !important;
+}
+
+/* Make Schedule content narrower */
+#schedule .prose {
+  max-width: 50rem !important; /* 800px - narrower for schedule */
+  width: 100% !important;
+  margin: 0 auto !important;
+}
+
+.prose.max-w-none {
+  max-width: 80rem !important; /* 1280px */
+  width: 100% !important;
+}
+
+/* Override any prose width constraints */
+.prose.prose-slate,
+.prose.lg\:prose-xl {
+  max-width: 80rem !important; /* 1280px */
+  width: 100% !important;
+}
+
+/* Gold text color for highlighted content */
+.gold-text {
+  color: #fbbf24 !important; /* Same gold as Call for Papers button */
+  font-weight: bold !important;
+}
+
+/* Change person names to warm Morandi colors */
+.text-blue-600 {
+  color: #92400e !important; /* Warm orange-brown */
+  font-weight: bold !important; /* Make names bold */
+  text-decoration-color: #92400e !important; /* Underline color */
+}
+
+.text-blue-600:hover {
+  color: #b45309 !important; /* Lighter warm orange on hover */
+  text-decoration-color: #b45309 !important; /* Underline color on hover */
+}
+
+/* Also target any links that might be used for person names */
+a[href*="github.io"],
+a[href*="stanford.edu"],
+a[href*="illinois.edu"],
+a[href*="upenn.edu"],
+a[href*="th-koeln.de"] {
+  color: #92400e !important; /* Warm orange-brown */
+  font-weight: bold !important; /* Make names bold */
+  text-decoration-color: #92400e !important; /* Underline color */
+}
+
+a[href*="github.io"]:hover,
+a[href*="stanford.edu"]:hover,
+a[href*="illinois.edu"]:hover,
+a[href*="upenn.edu"]:hover,
+a[href*="th-koeln.de"]:hover {
+  color: #b45309 !important; /* Lighter warm orange on hover */
+  text-decoration-color: #b45309 !important; /* Underline color on hover */
+}
