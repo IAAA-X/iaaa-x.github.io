@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Calls | IAAA</title>
+    <link>http://localhost:1313/calls/</link>
+      <atom:link href="http://localhost:1313/calls/index.xml" rel="self" type="application/rss+xml" />
+    <description>Calls</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 29 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/logo_hu_564a4cbe8434def.png</url>
+      <title>Calls</title>
+      <link>http://localhost:1313/calls/</link>
+    </image>
+    
+    <item>
+      <title>Call for Reviewers</title>
+      <link>http://localhost:1313/calls/call_for_reviewers/</link>
+      <pubDate>Fri, 29 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/calls/call_for_reviewers/</guid>
+      <description>&lt;p&gt;[TODO] Add call for reviewers details here.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Call for Papers</title>
+      <link>http://localhost:1313/calls/call_for_papers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/calls/call_for_papers/</guid>
+      <description>&lt;p&gt;We invite &lt;strong style=&#34;color: #92400e !important; font-weight: bold;&#34;&gt;long (8-page) and short (4-page)&lt;/strong&gt; paper submissions on topics including, but not limited to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong style=&#34;color: #92400e !important; font-weight: bold;&#34;&gt;AI agent design and training for traditional human IA tasks&lt;/strong&gt;, e.g., IR, RecSys, and QA systems&lt;/li&gt;
+&lt;li&gt;&lt;strong style=&#34;color: #92400e !important; font-weight: bold;&#34;&gt;User simulation&lt;/strong&gt; for estimating user backgrounds, goals, and information needs&lt;/li&gt;
+&lt;li&gt;Exploration of &lt;strong style=&#34;color: #92400e !important; font-weight: bold;&#34;&gt;human-AI agent interaction modes in information acquisition&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong style=&#34;color: #92400e !important; font-weight: bold;&#34;&gt;Privacy protection strategies for personalized IA&lt;/strong&gt; provided by AI agents&lt;/li&gt;
+&lt;li&gt;&lt;strong style=&#34;color: #92400e !important; font-weight: bold;&#34;&gt;Autonomous information acquisition by AI agents&lt;/strong&gt; (e.g., retrieval-augmented generation; RAG) for extending or updating their static and limited parametric knowledge&lt;/li&gt;
+&lt;li&gt;&lt;strong style=&#34;color: #92400e !important; font-weight: bold;&#34;&gt;Agent memory mechanisms and cognitive architectures&lt;/strong&gt; to process and organize information&lt;/li&gt;
+&lt;li&gt;&lt;strong style=&#34;color: #92400e !important; font-weight: bold;&#34;&gt;Learning paradigms for the AI agent&amp;rsquo;s self-improvement through accessing new information&lt;/strong&gt;, e.g., deep reinforcement learning&lt;/li&gt;
+&lt;li&gt;&lt;strong style=&#34;color: #92400e !important; font-weight: bold;&#34;&gt;Datasets, benchmarks, and hardware or software systems&lt;/strong&gt; supporting new paradigms of AI-enhanced IA and IA-enhanced AI agents&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;submission-instructions&#34;&gt;Submission Instructions&lt;/h3&gt;
+&lt;p&gt;We welcome two types of papers: regular workshop papers and non-archival submissions. Only regular workshop papers will be included in the workshop proceedings. The review process will be double-blind. All submissions should be in PDF format, following the [TBD] template and made through the OpenReview submission portal ([TBD]).&lt;/p&gt;
+&lt;h3 id=&#34;important-dates&#34;&gt;Important Dates&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;[TBD]&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
