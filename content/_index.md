@@ -9,7 +9,7 @@ design:
 sections:
   - block: hero
     content:
-      title: "The 1st International Workshop on<br>Information Access in the Era of AI Agents"
+      title: "IAAA'26:<br>The 1st International Workshop on<br>Information Access in the Era of AI Agents"
       text: "[Workshop Venue TBD]"
       primary_action:
         text: Call for Papers
