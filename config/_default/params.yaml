@@ -42,7 +42,7 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: '© {year} My Company'
+    notice: '© {year} IAAA Community'
 
 # Localization
 locale:
