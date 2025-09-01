@@ -1,6 +1,5 @@
 ---
 title: 'IAAA Workshop'
-date: 2025-08-28
 type: landing
 
 design:
