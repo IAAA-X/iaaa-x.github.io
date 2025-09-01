@@ -1,3 +1,9 @@
+- name: Mirella Lapata
+  affiliation: University of Edinburgh
+  image: advisors/lapata.jpg
+  website: "https://homepages.inf.ed.ac.uk/mlap/"
+  group: Advisory Board
+
 - name: Jianfeng Gao
   affiliation: Microsoft Research
   image: advisors/gao.jpg
