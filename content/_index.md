@@ -35,6 +35,7 @@ sections:
   - block: custom-page-section
     id: workshop-description
     filename: "workshop_description.md"
+    image: "IAAA.png"
     design:
       css_class: "bg-white dark:bg-gray-800"
   - block: custom-page-section

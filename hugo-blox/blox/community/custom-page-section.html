@@ -2,11 +2,18 @@
 {{ $block := .wcBlock }}
 
 {{ $page := site.GetPage ($block.filename | default "") }}
+{{ $imagePath := $block.image }}
 
 <div class="flex flex-col items-center mx-auto gap-3 justify-center px-4 max-w-7xl">
     {{ with $page }}
     <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white text-center">{{ .Title }}</div>
     <div class="prose prose-slate lg:prose-xl dark:prose-invert max-w-none w-full">
+        {{ if $imagePath }}
+        {{ $image := resources.Get (printf "media/%s" $imagePath) }}
+        {{ with $image }}
+        <img src="{{ .Permalink }}" alt="{{ $imagePath }}" style="float: right; margin: 0 0 1em 1em; max-width: 50%;">
+        {{ end }}
+        {{ end }}
         {{ .Content }}
     </div>
     {{ else }}

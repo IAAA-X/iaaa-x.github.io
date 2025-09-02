@@ -1,11 +1,8 @@
 ---
 title: Unlocking Smarter Information Access, For Humans and AI Agents Alike
 ---
-
-<div style="width: 100%;">
-  <img src="media/IAAA.png" alt="Description of your image" style="float: right; margin: 0 0 1em 1em; max-width: 50%;">
   
-  <strong style="color: #92400e !important; font-weight: bold;">Information access (IA)</strong> refers to retrieving, evaluating, organizing, and digesting information, with broad applications such as search engines, recommender systems, and question-answering systems used daily by millions worldwide.
+<strong style="color: #92400e !important; font-weight: bold;">Information access (IA)</strong> refers to retrieving, evaluating, organizing, and digesting information, with broad applications such as search engines, recommender systems, and question-answering systems used daily by millions worldwide.
 
 Natural language processing (NLP) has long played a key role in enhancing the intelligence of IA systems. With the rise of large language models (LLMs) and AI agents, <strong style="color: #92400e !important; font-weight: bold;">there are unprecedented opportunities to develop interactive agents that improve human IA quality and reduce their effort</strong>.
 
@@ -23,5 +20,3 @@ With a broader view of IA serving both human users and AI agents, this workshop 
 
   * <strong style="color: #92400e !important; font-weight: bold;">For humans, IA will be enhanced in effectiveness and efficiency through AI agent assistance;</strong> and
   * <strong style="color: #92400e !important; font-weight: bold;">For AI agents, they can leverage existing human IA technologies to supplement their limited pre-training knowledge, inform decisions, and autonomously improve their capabilities.</strong>
-
-</div>
