@@ -71,6 +71,7 @@ sections:
     file: advisors
     content:
       title: "Advisory Board"
+      subtitle: "Ordered alphabetically by last name"
     design:
       css_class: "bg-white dark:bg-gray-800"
   - block: markdown

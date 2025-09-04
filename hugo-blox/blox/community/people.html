@@ -2,6 +2,7 @@
 {{ $block := .wcBlock }}
 
 {{ $title := $block.content.title | default "People" }}
+{{ $subtitle := $block.content.subtitle | default "" }}
 {{ $userGroups := $block.content.user_groups | default (slice) }}
 
 {{/* Get people data */}}
@@ -21,7 +22,9 @@
 {{ end }}
 
 <div class="flex flex-col items-center max-w-full mx-auto gap-3 justify-center px-6">
-    <div class="mb-6 text-3xl font-bold text-gray-900 dark:text-white">{{ $title }}</div>
+    <div class="mb-1 text-3xl font-bold text-gray-900 dark:text-white">{{ $title }}</div>
+    <p class="text-sm text-gray-500 dark:text-gray-400 italic text-center">{{ $subtitle }}</p>
+
     <div class="prose prose-slate lg:prose-xl dark:prose-invert max-w-screen-xl w-full">
         {{ if $userGroups }}
         {{/* Show with subgroup titles */}}
