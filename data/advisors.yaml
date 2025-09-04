@@ -4,6 +4,12 @@
   website: "https://homepages.inf.ed.ac.uk/mlap/"
   group: Advisory Board
 
+- name: Yoelle Maarek
+  affiliation: Technology Innovation Institute
+  image: advisors/maarek.jpg
+  website: "https://www.yoelle.com/"
+  group: Advisory Board
+
 - name: Jianfeng Gao
   affiliation: Microsoft Research
   image: advisors/gao.jpg
